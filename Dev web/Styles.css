@@ -1,0 +1,70 @@
+html {
+  background-color: gray;
+}
+
+body{
+	width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1{
+	font-family: georgia;							/*police d'écriture*/
+	text-decoration: underline; 			/*souligne*/
+	font-style:italic;								/*mettre en italic*/
+	/*setting du tome*/
+}
+
+h2{
+	font-family: georgia;
+	text-align: center;								/*alignement*/
+	text-decoration :none;
+	margin: 0;
+  padding: 20px 0;
+  text-decoration: underline;
+	/*setting des nom de chapitres*/
+}
+
+h3{
+	font-family: georgia;
+	text-decoration :none; 
+	font-style:italic;
+	text-decoration: underline;
+	/*setting du footer et nom chapitre et titre sommaire*/
+}
+
+h4, p{
+	font-family: georgia ;
+	font-size: 20pt;									/*taille du paragraphe*/
+	font-style:italic;
+	line-height: normal;
+	/*setting des paraphes*/
+}
+
+figure {
+  border: thin #c0c0c0 solid; 			/*ajouter une ligne autour*/
+  display: flex; 										/*met le text dans les bordure*/										
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+  /*setting figure*/
+}
+
+img {
+  /*setting du l'image*/
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+  /*setting figcaption*/
+}
+
+.navigation {
+	max-width: 220px;
+}
